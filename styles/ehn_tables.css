@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #FFFFFF;
+  margin: 0 auto;
+  background: #F9F9F9;
+  font: 16px/26px Helvetica, Arial, sans-serif; 
+  text-decoration: none;
+}
+th, td {
+  vertical-align: top;
+  border: 1px solid #FFFFFF;
+}
+th {
+  background: #6695c5;
+  background: linear-gradient(#6695c5, #6695c5);
+  color: #444;
+  font-size: 14px;
+  padding: 9px 8px 7px 8px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 8px;
+}
+tbody td {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+tbody tr:nth-child(odd) td {
+  background: #F9F9F9;
+  background: linear-gradient(#aae4a5, #6695c5);
+}
+tbody tr:nth-child(even) td {
+  background: #F9F9F9;
+  background: linear-gradient(#f2f23c, #6695c5);
+}

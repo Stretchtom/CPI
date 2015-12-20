@@ -1,0 +1,95 @@
+  #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }   
+     a.list-group-item:hover{
+        background-color: #add8e6; 
+      }
+      /*body { padding-top:20px; }*/
+/*.panel-body*/
+ .btn:not(.btn-block) { width:150px;margin-bottom:10px;margin-left:10px; }
+.sdc{
+    background-color:#ff2bcc;
+}
+.usecol{
+    background-color:#00aaff;
+}
+.frecolor{
+    background-color:#99d500;
+}
+.itcolor{
+    background-color:#d4988b;
+}
+.acc{
+    background-color:#54d3d3;
+}
+.grou{
+    background-color:#99d566;
+}
+
+
+.rep{
+    background-color:#cc5500;
+}
+.pur{
+    background-color:#ffaa00;
+}
+.sal{
+    background-color:#9a009a;
+}
+
+.log{
+    background-color:#00aa66;
+}
+.avai{
+    background-color:#dddd00;
+}
+.acount{
+    background-color:#99ff66;
+}
+.sta{
+    background-color:#cda46a;
+}
+.err{
+    background-color:#ff0000;
+}

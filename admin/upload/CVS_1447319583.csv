@@ -1,0 +1,50 @@
+CODE,NAME CLASSIFICATION,VALUE,LEVEL
+02,"ALCOHOLIC BEVERAGES, TOBACCO AND NARCOTICS",76.53,Group
+02.1,Alcoholic beverages,78.31,Group
+02.1.1,Spirits (ND),86.61,subgroup
+02.1.2,Wine (ND),102.7,class
+02.1.3,Beer (ND),77.88,class
+02.2,Tobacco,66.01,class
+02.2.1,Tobacco (ND),66.01,class
+03,CLOTHING AND FOOTWEAR,84.4,class
+03.1,Clothing,83.05,class
+03.1.1,Clothing materials (SD),84.18,class
+03.1.2,Garments (SD),83.21,class
+03.1.3,Other articles of clothing and clothing accessories (SD),81.26,class
+03.1.4,"Cleaning, repair and hire of clothing (S)",83.31,subgroup
+03.2,Footwear,89.76,class
+03.2.1,Shoes and other footwear (SD),91.22,class
+03.2.2,Repair and hire of footwear (S),71.84,class
+04,"HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS",89.83,Group
+04.1,Actual rentals for housing,93.38,subgroup
+04.1.1,Actual rentals paid by tenants (S),93.38,class
+04.2,Imputed rentals for housing,91.66,subgroup
+04.2.1,Imputed rentals of owner?occupiers (S),91.66,class
+04.3,Maintenance and repair of the dwelling,92.85,subgroup
+04.3.1,Materials for the maintenance and repair of the dwelling (ND),102.88,class
+04.3.2,Services for the maintenance and repair of the dwelling (S),72.38,class
+04.4,Water supply and miscellaneous services relating to the dwelling,119.18,subgroup
+04.4.1,Water supply (S),119.18,class
+04.4.2,Rubbish collection,,class
+04.5,"Electricity, gas and other fuels",78.78,subgroup
+04.5.1,Electricity (ND),83.69,class
+04.5.2,Gas (ND),91.77,class
+04.5.4,Solid fuels (ND),75.45,class
+05,"FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE MAINTENANCE OF THE HOUSE",93.21,Group
+05.1,"Furniture and furnishings, carpets and other floor coverings",98.14,subgroup
+05.1.1,Furniture and furnishings (D),95.21,class
+05.1.2,Carpets and other floor coverings (D),140.89,class
+05.1.3,"Repair of furniture, furnishings and floor coverings (S)",99.29,class
+05.2,Household textiles,96.87,subgroup
+05.2.1,Household textiles (SD),96.87,class
+05.3,Household appliances,87.29,subgroup
+05.3.1,Major household appliances whether electric or not (D),91.65,class
+05.3.2,Small electric household appliances (SD),80.12,class
+05.3.3,Repair of household appliances (S),99.21,class
+05.4,"Glassware, tableware and household utensils",96.84,subgroup
+05.4.1,"Glassware, tableware and household utensils (SD)",96.84,class
+05.5,Tools and equipment for house and garden,99.25,subgroup
+05.5.2,Small tools and miscellaneous accessories (SD),99.25,class
+05.6,Goods and services for routine household maintenance,91.18,subgroup
+05.6.1,Non?durable household goods (ND),101.06,class
+05.6.2,Domestic services and household services (S),80.21,class

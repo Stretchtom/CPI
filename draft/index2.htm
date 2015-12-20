@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
+<head>
+<title>Javascript IFrame Reload</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript"><!--
+// set your interval in milliseconds
+var reloadInterval = 3000;
+// this will run when the document is fully loaded
+function init() {
+ setTimeout('reload()',reloadInterval);
+}
+// this reloads the iframe, and triggers the next reload interval
+function reload() {
+ var iframe = document.getElementById('reloader');
+ if (!iframe) return false;
+ iframe.src = iframe.src;
+ setTimeout('reload()',reloadInterval);
+}
+// load the init() function when the page is fully loaded
+window.onload = init;
+--></script>
+</head>
+<body>
+<h2> this is a test</h2>
+<iframe id="reloader" width="500" height="400" src="http://www.google.com/"/>
+</body>
+</html>
